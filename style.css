@@ -1,0 +1,47 @@
+#header{
+    color:gray(75, 85, 99);
+    text-align: center;
+    justify-items: center;
+}
+.assignment{
+    font-size: xx-large;
+    font-weight: 900;
+}
+.name{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.reg{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.section{   
+    font-size: xx-large;
+    font-weight: bolder;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.image img {
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
